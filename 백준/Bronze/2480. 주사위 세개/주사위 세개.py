@@ -11,5 +11,6 @@ elif b == c:
 else:
     m = max(a, b, c)
     reward = m * 100
+# a != b != c를 사용하면 a == c인 경우를 포함하게 됨
 
 print(reward)
